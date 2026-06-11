@@ -186,22 +186,9 @@ npm run report
 ## Verified Test Results
 The suite is passing locally in VS Code Test Explorer.
 
-- 7/7 tests passed
-- `tests/password-generator.spec.ts`
-- `LastPass online password generator`
-  - Password generator page loads successfully
-  - A password is generated
-  - Password length can be changed
-  - Uppercase option works
-  - Numbers option works
-  - Regenerate button creates a new password
-  - Copy password button shows confirmation
 
-If you want to attach the screenshot you shared, save it as `screenshots/tests-passing.png` and add:
+<img width="478" height="373" alt="image" src="https://github.com/user-attachments/assets/bfcbb586-606a-4c72-a80b-d38155410921" />
 
-```md
-![Playwright tests passing](screenshots/tests-passing.png)
-```
 
 ## Running Tests from VS Code
 You can also run tests directly from VS Code.
