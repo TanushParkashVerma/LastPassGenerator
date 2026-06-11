@@ -1,0 +1,22 @@
+{
+  "name": "lastpassgenerator",
+  "version": "1.0.0",
+  "description": "Playwright Tests for Last Pass Generator",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanushParkashVerma/LastPassGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanushParkashVerma/LastPassGenerator/issues"
+  },
+  "homepage": "https://github.com/TanushParkashVerma/LastPassGenerator#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3"
+  }
+}
