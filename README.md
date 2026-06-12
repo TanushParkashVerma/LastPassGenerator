@@ -122,7 +122,6 @@ For detailed setup instructions, see the [Playwright VS Code documentation](http
    ```
    git clone https://github.com/TanushParkashVerma/LastPassGenerator.git
    cd LastPassGenerator
-   code .
    ```
 
 2. **Install the Extension**: Open the Extensions view in VS Code (Ctrl+Shift+X or Cmd+Shift+X) and search for "Playwright". [Install the official extension from Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright).
@@ -131,7 +130,7 @@ For detailed setup instructions, see the [Playwright VS Code documentation](http
 
 4. **Select Browsers**: Choose the browsers you want for your tests (e.g., Chromium, Firefox).
 
-5. **Handle Override Prompts**: When prompted to override settings, select **N** since this cloned repo already has the necessary configuration.
+5. **Handle Override Prompts**: When prompted to override settings in Terminal, select **N** since this cloned repo already has the necessary configuration.
 
 6. **Open the Testing Sidebar**: Click the **Testing icon** in the VS Code Activity Bar to open the Test Explorer. Here you'll find your tests and the Playwright sidebar for managing projects, tools, and settings. If it doesn't show up, click the **Refresh icon** and you'll be able to Run the tests.
 
