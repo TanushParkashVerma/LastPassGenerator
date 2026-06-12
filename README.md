@@ -149,49 +149,6 @@ The suite is passing locally in VS Code Test Explorer.
 
 ```
 
-## Test Design Approach
-This project follows the Page Object Model pattern.
-
-The main benefits of this approach are:
-
-- Test cases are easier to read
-- Selectors are managed in one place
-- Code duplication is reduced
-- New tests can be added easily
-- The framework is easier to maintain if the UI changes
-
-Example:
-
-Instead of writing page locators directly inside every test, the test calls reusable methods from `PasswordGeneratorPage.ts`.
-
-This keeps the test file focused on test flow and assertions.
-
-## Example Test Coverage
-The test suite validates that:
-
-- The LastPass password generator page opens successfully
-- A password value is displayed
-- Changing the password length updates the generated password
-- Enabling uppercase letters generates a password with uppercase characters
-- Enabling numbers generates a password with numeric characters
-- Clicking the generate button creates a different password
-- Clicking the copy button displays a copied confirmation message
-
-```
-You can also open the Playwright report:
-
-```
-npm run report
-```
-
-The report shows:
-
-- Passed tests
-- Failed tests
-- Screenshots
-- Error messages
-- Trace details if enabled
-
 ## Notes
 
 - Stable selectors such as `getByRole`, `getByLabel`, and `getByText` are preferred where possible.
@@ -209,15 +166,6 @@ playwright-report/
 test-results/
 ```
 These should be added to `.gitignore`.
-
-## Recommended `.gitignore`
-
-```
-node_modules/
-playwright-report/
-test-results/
-.env
-```
 
 ## Submission
 
