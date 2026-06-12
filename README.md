@@ -108,47 +108,32 @@ The automation suite covers the following password generator features:
 7. Copy password button shows confirmation
 
 ## Prerequisites
-Before running the project, make sure the following are installed:
 
-- Node.js
-- npm
-- VS Code
-- Microsoft Playwright Testing extension for VS Code
+Before you begin, make sure you have the following installed:
 
-You can confirm Node.js and npm are installed by running:
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-```
-node -v
-npm -v
-```
+## Installation & Setup
 
-## Setup Instructions
+For detailed setup instructions, see the [Playwright VS Code documentation](https://playwright.dev/docs/getting-started-vscode).
 
-### 1. Clone the repository
+1. **Clone and open the folder in VS Code**
+   ```
+   git clone https://github.com/TanushParkashVerma/LastPassGenerator.git
+   cd LastPassGenerator
+   code .
+   ```
 
-```
-git clone https://github.com/TanushParkashVerma/LastPassGenerator.git
-cd LastPassGenerator
-```
+2. **Install the Extension**: Open the Extensions view in VS Code (Ctrl+Shift+X or Cmd+Shift+X) and search for "Playwright". [Install the official extension from Microsoft](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright).
 
-### 2. Install project dependencies
+3. **Install Playwright**: Once the extension is installed, open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P) and run the **Test: Install Playwright** command.
 
-```
-npm install
-```
+4. **Select Browsers**: Choose the browsers you want for your tests (e.g., Chromium, Firefox).
 
-### 3. Install Playwright browsers
+5. **Handle Override Prompts**: When prompted to override settings, select **N** since this cloned repo already has the necessary configuration.
 
-```
-npx playwright install
-```
-
-### 4. Verify TypeScript configuration
-
-```
-npm exec -- tsc --project tsconfig.json --noEmit
-```
-This command checks TypeScript errors without generating any output files.
+6. **Open the Testing Sidebar**: Click the **Testing icon** in the VS Code Activity Bar to open the Test Explorer. Here you'll find your tests and the Playwright sidebar for managing projects, tools, and settings. If it doesn't show up, click the **Refresh icon** and you'll be able to run the tests.
 
 ## Running Tests
 
