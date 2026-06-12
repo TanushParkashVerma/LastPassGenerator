@@ -133,34 +133,7 @@ For detailed setup instructions, see the [Playwright VS Code documentation](http
 
 5. **Handle Override Prompts**: When prompted to override settings, select **N** since this cloned repo already has the necessary configuration.
 
-6. **Open the Testing Sidebar**: Click the **Testing icon** in the VS Code Activity Bar to open the Test Explorer. Here you'll find your tests and the Playwright sidebar for managing projects, tools, and settings. If it doesn't show up, click the **Refresh icon** and you'll be able to run the tests.
-
-## Running Tests
-
-### Run all tests
-
-```
-npm test
-```
-
-### Run tests in headed mode
-This opens the browser while tests are running.
-
-```
-npm run test:headed
-```
-
-### Run tests using Playwright UI mode
-
-```
-npm run test:ui
-```
-
-### Run tests in debug mode
-
-```
-npm run test:debug
-```
+6. **Open the Testing Sidebar**: Click the **Testing icon** in the VS Code Activity Bar to open the Test Explorer. Here you'll find your tests and the Playwright sidebar for managing projects, tools, and settings. If it doesn't show up, click the **Refresh icon** and you'll be able to Run the tests.
 
 ### View Playwright HTML report
 
@@ -173,20 +146,6 @@ The suite is passing locally in VS Code Test Explorer.
 
 
 <img width="478" height="373" alt="image" src="https://github.com/user-attachments/assets/bfcbb586-606a-4c72-a80b-d38155410921" />
-
-
-## Running Tests from VS Code
-You can also run tests directly from VS Code.
-
-Steps:
-
-1. Install the Microsoft Playwright Testing extension.
-2. Open the project folder in VS Code.
-3. Open the Testing sidebar.
-4. Select the browser project you want to run.
-5. Click the play button beside a test file or individual test case.
-
-This is useful for debugging and running specific test cases quickly.
 
 ```
 
@@ -218,16 +177,6 @@ The test suite validates that:
 - Clicking the generate button creates a different password
 - Clicking the copy button displays a copied confirmation message
 
-## Debugging Tips
-If a test fails, use headed mode:
-
-```
-npm run test:headed
-```
-Or use debug mode:
-
-```
-npm run test:debug
 ```
 You can also open the Playwright report:
 
