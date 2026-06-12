@@ -157,17 +157,6 @@ The suite is passing locally in VS Code Test Explorer.
 - Test logic is separated from page interaction logic.
 - Since this is a live public website, selectors may need to be updated if the website changes.
 
-## Files Not Included in Submission
-The following files and folders should not be included in the final zip or GitHub repository:
-
-```
-node_modules/
-playwright-report/
-test-results/
-```
-These should be added to `.gitignore`.
-
-## Submission
-
+## Submission By
 ## Author
 Tanush Parkash Verma
